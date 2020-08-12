@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Javadomain.in Prompt before Closing browser tab Example</title>
+<script type="text/javascript">
+window.onbeforeunload = function (evt) {
+    return 'Do you really want to close?';
+}
+</script>
+</head>
+<body>
+Click close button in the browser tab to see the output.
+</body>
+</html>
